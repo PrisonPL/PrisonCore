@@ -1,0 +1,22 @@
+name: PrisonCore
+version: '${project.version}'
+main: com.collidacube.prison.prisoncore.PrisonCore
+api-version: 1.19
+softdepend: [Vault, PlaceholderAPI]
+authors: [CollidaCube]
+description: Core plugin to connect all prison plugin modules
+website: github.com/PrisonPL/PrisonCore
+
+commands:
+  statistics:
+    aliases: [statistic, stats, stat]
+    description: Changes the statistical values of a player
+    permission: prisoncore.admin
+    permission-message: "§cLacking permission: prisoncore.admin"
+    usage: "§cCorrect Usage: /statistic <player> <statistic> [<add|remove|set> <amount>|reset]"
+  economies:
+    aliases: [economy, econ, eco]
+    description: Changes the economical values of a player
+    permission: prisoncore.admin
+    permission-message: "§cLacking permission: prisoncore.admin"
+    usage: "§cCorrect Usage: /economy <player> <economy> [<add|remove|set> <amount>|reset]"

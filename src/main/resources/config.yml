@@ -1,0 +1,23 @@
+# hint: If you have PlaceholderAPI, make sure the Player extension is installed (/papi ecloud download Player)
+
+# put "none" to disable
+first-join-message: '&b&lWELCOME &7» %player_name% just joined the server for the first time.'
+join-message: '&8[&a+&8] &7%player_displayname%'
+quit-message: 'none'
+
+economy:
+  cash:
+    currency-singular: 'dollar'
+    currency-plural: 'dollars'
+    display-format: '$%.2f'
+  tokens:
+    currency-singular: 'token'
+    currency-plural: 'tokens'
+    display-format: '$%.0f'
+    fractional-digits: 0
+
+statistics:
+  kills:
+    value-singular: 'kill'
+    value-plural: 'kills'
+    display-format: '$%s'
