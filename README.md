@@ -1,12 +1,6 @@
 # [PrisonCore](https://github.com/PrisonPL)
 This plugin is central to all submodules and is required for them to work.
 
-List of submodules:
-- [PublicMines](https://github.com/PrisonPL/PublicMines) _(In Development)_
-- Tools _(Doesn't Exist Yet)_
-- PrivateMines _(Doesn't Exist Yet)_
-- Gangs _(Doesn't Exist Yet)_
-
 To make your own submodules, you can add it as a dependency with Maven or Gradle.
 **Maven**
 ```xml
